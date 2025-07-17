@@ -4,6 +4,15 @@
 <head>
     <title>My Personal Webpage</title>
 <style>
+    .button-transition {
+        background-color: navy;
+        color: white;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+        border: none;
+        curser: pointer:
+        }
+        .bitton-transition:hover {background-color: darkorange;}
 div.mycontainer {
 width:66%;
 overflow:auto;
@@ -98,7 +107,19 @@ text-align: left;
     Location: Kansas City
     </pre>
     <a href = "test.html" style = "color:black"; target = "_blank";>
-        <button>New Page Link</button></a>
+        <button class="button-transition">New Page Link</button></a>
+    <form style=margin-top: 30px;">
+        <lable for="email">Prisoner4thalord@gmai.com>/lable>
+            <input type="email" id="email" placeholder="you@Example.com required>
+            <br>
+            <br>
+            <lable for="bio">Tell us about yourself:</lable>lable>
+        <br>
+        <textarea id="bio" rows="4" cols="40"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>form>
 </header>
 <section class="about">
     <p>Check out my favorite website:
